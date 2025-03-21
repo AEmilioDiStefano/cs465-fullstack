@@ -2,14 +2,14 @@
     {
         "name" : "Gale Reef",
         "image" : "reef1.jpg",
-        "description" : "<p>Gale Reef is a reef whose name is Gale." 
+        "description" : "<p>Gale Reef is a reef whose name is Gale.  This description is being rendered dynamically from a JSON file!" 
     } , {
         "name" : "Dawson's Reef",
         "image" : "reef2.jpg",
-        "description" : "<p>Dawson's Reef is kind of like Gale reef, but its name is Dawson." 
+        "description" : "<p>Dawson's Reef is kind of like Gale reef, but its name is Dawson.  This description is being rendered dynamically from a JSON file!" 
     } , {
         "name" : "Claire's Reef",
         "image" : "reef3.jpg",
-        "description" : "<p>Claire's Reef is another option like the others, but its name is Claire." 
+        "description" : "<p>Claire's Reef is another option like the others, but its name is Claire.  This description is being rendered dynamically from a JSON file!" 
     }
 ]
