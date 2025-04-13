@@ -1,14 +1,5 @@
 export const trips = [
     {
-        "code" : "CENT251031",
-        "name" : "Centralia",
-        "length" : "2 nights / 3 days",
-        "start" : "2025-10-31T08:00:00Z",
-        "resort" : "Upstate Pennsylvania, 3 stars",
-        "perPerson" : "249.00",
-        "image" : "centralia-town.jpg",
-        "description" : "<p>Visit central Pennsylvania's most charming entrance to the underworld.  Enjoy the misty screen of smoke which seeps lazily through deep fissures which lead to an inferno unimaginable to the human mind.  DISCLAIMER: Travlr Getaways will not be held liable for injury or death resulting from lycanthropy, zombification, general posession, or interaction with local fauna." 
-    } , {
         "code" : "GALR210214",
         "name" : "Gale Reef",
         "length" : "4 nights / 5 days",
@@ -35,5 +26,14 @@ export const trips = [
         "perPerson" : "1999.00",
         "image" : "reef3.jpg",
         "description" : "<p>Claire's Reef is another option like the others, but its name is Claire.  This description is being rendered dynamically from a JSON file!" 
+    } , {
+        "code" : "CENT251031",
+        "name" : "Centralia",
+        "length" : "2 nights / 3 days",
+        "start" : "2025-10-31T08:00:00Z",
+        "resort" : "Upstate Pennsylvania, 3 stars",
+        "perPerson" : "249.00",
+        "image" : "centralia-town.jpg",
+        "description" : "<p>Visit central Pennsylvania's most charming entrance to the underworld.  Enjoy the misty screen of smoke which seeps out from fissures which lead to an inferno unimaginable to the human mind.  DISCLAIMER: Travlr Getaways will not be held liable for injury or death resulting from lycanthropy, zombification, general posession, or interaction with local fauna." 
     }
-]
+];

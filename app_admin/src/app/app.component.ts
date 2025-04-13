@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
 import { CommonModule } from '@angular/common';
+import { RouterOutlet } from '@angular/router';
 import { TripListingComponent } from './trip-listing/trip-listing.component';
 
 @Component({
@@ -11,5 +11,5 @@ import { TripListingComponent } from './trip-listing/trip-listing.component';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'Travlr Getaways Admin.';
+  title = 'Travlr Getaways Admin';
 }
