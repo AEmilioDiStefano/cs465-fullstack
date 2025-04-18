@@ -4,6 +4,7 @@ const Model = mongoose.model('trips');
 const User = mongoose.model('users');
 
 
+
 // Get: /trips - lists all of the trips
 // Regardless of the outcome, the 
 // response must include HTML status 
