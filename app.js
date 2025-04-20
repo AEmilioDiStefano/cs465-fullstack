@@ -4,6 +4,10 @@ require('dotenv').config();
 // Bring in the database
 require('./app_api/models/db');
 
+// Wire in our authentication module
+require('./app_api/config/passport');
+var passport = require('passport');
+
 var handlebars = require('hbs');
 
 var createError = require('http-errors');
@@ -34,10 +38,13 @@ app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
+app.use(express.static(path.join(__dirname, 'public')));
+app.use(passport.initialize());
+
 // Enable CORS
 app.use('/api', (req, res, next) => {
   res.header('Access-Control-Allow-Origin', 'http://localhost:4200');
-  res.header('Access-Control-Allow-Headers', 'Origin, X-Requested-With, Content-Type, Accept');
+  res.header('Access-Control-Allow-Headers', 'Origin, X-Requested-With, Content-Type, Accept', 'Authorization');
   res.header('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE');
   next();
 });
@@ -63,5 +70,15 @@ app.use(function(err, req, res, next) {
   res.status(err.status || 500);
   res.render('error');
 });
+
+// Catch unauthorized error and create 401
+app.use((err, req, res, next) => {
+  if(err.name === 'UnauthorizedError') {
+  res
+  .status(401)
+  .json({"message": err.name + ": " + err.message});
+  }
+  });
+  
 
 module.exports = app;

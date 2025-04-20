@@ -1,6 +1,7 @@
 const passport = require('passport');
 const mongoose = require('mongoose');
 const User = mongoose.model('users');
+
 module.exports = User;
 const register = (req, res) => {
     if (!req.body.name || !req.body.email || !req.body.password) {
@@ -54,5 +55,4 @@ const login = (req, res) => {
 module.exports = {
     register,
     login,
-    User
 };

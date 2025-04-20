@@ -4,6 +4,8 @@ const express = require("express"); // Express app
 const tripsController = require("../controllers/trips");
 const authController = require("../controllers/authentication");
 
+const jwt = require('jsonwebtoken'); // Enable JSON Web Tokens
+
 const router = express.Router(); // Router logic
 
 router.route("/register").post(authController.register);
@@ -62,5 +64,11 @@ router
     .route("/trips/:tripCode")
     .get(tripsController.tripsFindByCode)
     .put(authenticateJWT, tripsController.tripsUpdateTrip);
+
+// Define route for login endpoint
+router
+    .route('/login')
+    .post(authController.login);
+
 
 module.exports = router;
