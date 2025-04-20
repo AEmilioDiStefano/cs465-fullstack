@@ -1,3 +1,11 @@
+// Pull in the dotenv module
+require('dotenv').config();
+
+// Bring in the database
+require('./app_api/models/db');
+
+var handlebars = require('hbs');
+
 var createError = require('http-errors');
 var express = require('express');
 var path = require('path');
@@ -9,11 +17,6 @@ var indexRouter = require('./app_server/routes/index');
 var usersRouter = require('./app_server/routes/users');
 var travelRouter = require('./app_server/routes/travel');
 var apiRouter = require('./app_api/routes/index');
-
-var handlebars = require('hbs');
-
-// Bring in the database
-require('./app_api/models/db');
 
 var app = express();
 
