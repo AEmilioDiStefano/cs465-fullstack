@@ -22,40 +22,40 @@ Though the material in this course differs somewhat from what I plan to be doing
 
 ### Sources:
 
-Erickson, J. (2024, January 30). What Is the MERN Stack? Guide & Examples. 
+Erickson, J. (2024, January 30). *What Is the MERN Stack? Guide & Examples.* 
 Oracle. 
 https://www.oracle.com/database/mern-stack/  
 
 
-GeeksForGeeks. (2023, March 21). Working with Express.js Middleware 
-and Its Benefits. 
+GeeksForGeeks. (2023, March 21). *Working with Express.js Middleware 
+and Its Benefits.* 
 https://www.geeksforgeeks.org/working-of-express-js-middleware-
 and-its-benefits/ 
 
-GeeksForGeeks. (2024, July 8). MVC Framework Introduction. 
+GeeksForGeeks. (2024, July 8). *MVC Framework Introduction.* 
 https://www.geeksforgeeks.org/mvc-framework-introduction
 
-GeeksForGeeks. (2024, October 14). The Pros and Cons of Node.JS in Web 
-Development. 
+GeeksForGeeks. (2024, October 14). *The Pros and Cons of Node.JS in Web 
+Development.* 
 https://www.geeksforgeeks.org/the-pros-and-cons-of-node-js-in-web-
 development/ 
 
-GeeksForGeeks. (2024, December 14). Mongoose Tutorial. 
+GeeksForGeeks. (2024, December 14). *Mongoose Tutorial.* 
 https://www.geeksforgeeks.org/mongoose-tutorial/ 
 
-IBM. (n. d.). What is MEAN Stack? 
+IBM. (n. d.). *What is MEAN Stack?* 
 https://www.ibm.com/think/topics/mean-stack 
 
-Jain, S. (2024, June 11). The Rise of Single-Page Applications (SPAs) and 
-How Angular is Leading the Way. TechVraksh. 
+Jain, S. (2024, June 11). *The Rise of Single-Page Applications (SPAs) and 
+How Angular is Leading the Way.* TechVraksh. 
 https://medium.com/techvraksh/the-rise-of-single-page-applications-
 spas-and-how-angular-is-leading-the-way-064a7fc1f4b9 
 
-MongoDB. (2025). Advantages of MongoDB. 
+MongoDB. (2025). *Advantages of MongoDB.* 
 https://www.mongodb.com/resources/compare/advantages-of-
 mongodb 
 
-MongoDB. (2025). What is the MEAN Stack? 
+MongoDB. (2025). *What is the MEAN Stack?* 
 https://www.mongodb.com/resources/languages/mean-stack 
 
 
