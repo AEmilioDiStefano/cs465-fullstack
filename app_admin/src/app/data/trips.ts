@@ -1,4 +1,4 @@
-[
+export const trips = [
     {
         "code" : "GALR210214",
         "name" : "Gale Reef",
@@ -35,5 +35,5 @@
         "perPerson" : "249.00",
         "image" : "centralia-town.jpg",
         "description" : "<p>Visit central Pennsylvania's most charming entrance to the underworld.  Enjoy the misty screen of smoke seeping out from fissures which lead to an inferno unimaginable to the human mind.  DISCLAIMER: Travlr Getaways will not be held liable for injury or death resulting from lycanthropy, zombification, general posession, or interaction with local fauna." 
-    } 
-]
+    }
+];
